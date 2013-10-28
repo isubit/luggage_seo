@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 version = 7.x-1.0
 project = global_seo
+github = https://raw.github.com/ISUITC/global_seo/master/global_seo.info
 dependencies[] = basic_seo_rules
 dependencies[] = checklistapi
 dependencies[] = features
