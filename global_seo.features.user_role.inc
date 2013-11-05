@@ -13,7 +13,7 @@ function global_seo_user_default_roles() {
   // Exported role: SEO editor.
   $roles['SEO editor'] = array(
     'name' => 'SEO editor',
-    'weight' => 10,
+    'weight' => 8,
   );
 
   return $roles;
