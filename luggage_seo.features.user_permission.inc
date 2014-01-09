@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * global_seo.features.user_permission.inc
+ * luggage_seo.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function global_seo_user_default_permissions() {
+function luggage_seo_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'allow seo check failures'.

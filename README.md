@@ -1,2 +1,2 @@
-global_seo
+luggage_seo
 ==========

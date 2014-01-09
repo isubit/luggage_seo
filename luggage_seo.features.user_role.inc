@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * global_seo.features.user_role.inc
+ * luggage_seo.features.user_role.inc
  */
 
 /**
  * Implements hook_user_default_roles().
  */
-function global_seo_user_default_roles() {
+function luggage_seo_user_default_roles() {
   $roles = array();
 
   // Exported role: SEO editor.
