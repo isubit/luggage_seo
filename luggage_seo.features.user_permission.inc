@@ -10,6 +10,19 @@
 function luggage_seo_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'access broken links report'.
+  $permissions['access broken links report'] = array(
+    'name' => 'access broken links report',
+    'roles' => array(
+      'SEO editor' => 'SEO editor',
+      'content editor' => 'content editor',
+      'content publisher' => 'content publisher',
+      'luggage admin' => 'luggage admin',
+      'site admin' => 'site admin',
+    ),
+    'module' => 'linkchecker',
+  );
+
   // Exported permission: 'access own broken links report'.
   $permissions['access own broken links report'] = array(
     'name' => 'access own broken links report',
