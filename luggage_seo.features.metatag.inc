@@ -27,18 +27,6 @@ function luggage_seo_metatag_export_default() {
       'shortlink' => array(
         'value' => '[current-page:url:unaliased]',
       ),
-      'dcterms.format' => array(
-        'value' => 'text/html',
-      ),
-      'dcterms.identifier' => array(
-        'value' => '[current-page:url:absolute]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[current-page:title]',
-      ),
-      'dcterms.type' => array(
-        'value' => 'Text',
-      ),
     ),
   );
 
@@ -53,12 +41,6 @@ function luggage_seo_metatag_export_default() {
       'shortlink' => array(
         'value' => '[site:url]',
       ),
-      'dcterms.identifier' => array(
-        'value' => '[site:url]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[site:name]',
-      ),
     ),
   );
 
@@ -72,12 +54,6 @@ function luggage_seo_metatag_export_default() {
       ),
       'shortlink' => array(
         'value' => '[site:url]',
-      ),
-      'dcterms.identifier' => array(
-        'value' => '[site:url]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[site:name]',
       ),
     ),
   );
@@ -96,15 +72,6 @@ function luggage_seo_metatag_export_default() {
       'shortlink' => array(
         'value' => '[site:url]',
       ),
-      'dcterms.description' => array(
-        'value' => '[site:slogan]',
-      ),
-      'dcterms.identifier' => array(
-        'value' => '[site:url]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[site:name]',
-      ),
     ),
   );
 
@@ -118,24 +85,6 @@ function luggage_seo_metatag_export_default() {
       ),
       'description' => array(
         'value' => '[node:summary]',
-      ),
-      'dcterms.creator' => array(
-        'value' => '[node:author]',
-      ),
-      'dcterms.date' => array(
-        'value' => '[node:created:custom:Y-m-d\\TH:iP]',
-      ),
-      'dcterms.modified' => array(
-        'value' => '[node:changed:custom:Y-m-d\\TH:iP]',
-      ),
-      'dcterms.description' => array(
-        'value' => '[node:summary]',
-      ),
-      'dcterms.language' => array(
-        'value' => '[node:language]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[node:title]',
       ),
     ),
   );
@@ -151,12 +100,6 @@ function luggage_seo_metatag_export_default() {
       'description' => array(
         'value' => '[term:description]',
       ),
-      'dcterms.description' => array(
-        'value' => '[term:description]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[term:name]',
-      ),
     ),
   );
 
@@ -168,22 +111,13 @@ function luggage_seo_metatag_export_default() {
       'title' => array(
         'value' => '[user:name] | [site:name]',
       ),
-      'dcterms.creator' => array(
-        'value' => '[user:name]',
-      ),
-      'dcterms.date' => array(
-        'value' => '[user:created:custom:Y-m-d\\TH:iP]',
-      ),
-      'dcterms.title' => array(
-        'value' => '[user:name]',
-      ),
     ),
   );
 
   // Exported Metatag config instance: view.
   $config['view'] = array(
     'instance' => 'view',
-    'disabled' => FALSE,
+    'disabled' => TRUE,
     'config' => array(
       'title' => array(
         'value' => '[view:title] | [site:name]',
