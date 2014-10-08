@@ -107,22 +107,5 @@ function luggage_seo_metatag_export_default() {
     ),
   );
 
-  // Exported Metatag config instance: view.
-  $config['view'] = array(
-    'instance' => 'view',
-    'disabled' => TRUE,
-    'config' => array(
-      'title' => array(
-        'value' => '[view:title] | [site:name]',
-      ),
-      'description' => array(
-        'value' => '[view:description]',
-      ),
-      'canonical' => array(
-        'value' => '[view:url]',
-      ),
-    ),
-  );
-
   return $config;
 }
