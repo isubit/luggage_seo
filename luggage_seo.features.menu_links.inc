@@ -12,7 +12,7 @@ function luggage_seo_menu_default_menu_links() {
 
   // Exported menu link: menu-footer-menu_site-map:sitemap
   $menu_links['menu-footer-menu_site-map:sitemap'] = array(
-    'menu_name' => 'menu-footer-menu',
+    'menu_name' => 'menu-footer',
     'link_path' => 'sitemap',
     'router_path' => 'sitemap',
     'link_title' => 'Site map',
@@ -20,7 +20,7 @@ function luggage_seo_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Display a site map with RSS feeds.',
       ),
-      'identifier' => 'menu-footer-menu_site-map:sitemap',
+      'identifier' => 'menu-footer_site-map:sitemap',
     ),
     'module' => 'system',
     'hidden' => 0,
