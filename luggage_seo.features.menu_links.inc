@@ -10,7 +10,7 @@
 function luggage_seo_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-footer-menu_site-map:sitemap
+  // Exported menu link: menu-footer_site-map:sitemap
   $menu_links['menu-footer_site-map:sitemap'] = array(
     'menu_name' => 'menu-footer',
     'link_path' => 'sitemap',
