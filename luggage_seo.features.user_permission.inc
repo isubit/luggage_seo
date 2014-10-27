@@ -109,11 +109,6 @@ function luggage_seo_user_default_permissions() {
     'name' => 'edit meta tags',
     'roles' => array(
       'SEO editor' => 'SEO editor',
-      'authenticated user' => 'authenticated user',
-      'content editor' => 'content editor',
-      'content publisher' => 'content publisher',
-      'luggage admin' => 'luggage admin',
-      'site admin' => 'site admin',
     ),
     'module' => 'metatag',
   );
