@@ -78,7 +78,8 @@ function luggage_seo_strongarm() {
   $strongarm->name = 'site_map_show_vocabularies';
   $strongarm->value = array(
     'category' => 'category',
-    'tags' => 'tags',
+    'people_category' => 'people_category',
+    'expertise' => 'expertise',
   );
   $export['site_map_show_vocabularies'] = $strongarm;
 
