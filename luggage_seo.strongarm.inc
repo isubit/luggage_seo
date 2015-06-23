@@ -50,8 +50,8 @@ function luggage_seo_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'site_map_show_menus';
   $strongarm->value = array(
-    'menu-footer-menu' => 'menu-footer-menu',
     'main-menu' => 'main-menu',
+    'menu-footer' => 0,
     'management' => 0,
     'navigation' => 0,
     'user-menu' => 0,
@@ -78,8 +78,7 @@ function luggage_seo_strongarm() {
   $strongarm->name = 'site_map_show_vocabularies';
   $strongarm->value = array(
     'category' => 'category',
-    'people_category' => 'people_category',
-    'expertise' => 'expertise',
+    'tags' => 0,
   );
   $export['site_map_show_vocabularies'] = $strongarm;
 
