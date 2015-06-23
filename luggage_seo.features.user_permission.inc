@@ -16,8 +16,6 @@ function luggage_seo_user_default_permissions() {
     'roles' => array(
       'SEO editor' => 'SEO editor',
       'content editor' => 'content editor',
-      'content publisher' => 'content publisher',
-      'luggage admin' => 'luggage admin',
       'site admin' => 'site admin',
     ),
     'module' => 'linkchecker',
@@ -27,10 +25,8 @@ function luggage_seo_user_default_permissions() {
   $permissions['access own broken links report'] = array(
     'name' => 'access own broken links report',
     'roles' => array(
-      'access admin' => 'access admin',
       'authenticated user' => 'authenticated user',
       'content editor' => 'content editor',
-      'content publisher' => 'content publisher',
       'site admin' => 'site admin',
     ),
     'module' => 'linkchecker',
@@ -88,8 +84,6 @@ function luggage_seo_user_default_permissions() {
     'roles' => array(
       'SEO editor' => 'SEO editor',
       'content editor' => 'content editor',
-      'content publisher' => 'content publisher',
-      'luggage admin' => 'luggage admin',
       'site admin' => 'site admin',
     ),
     'module' => 'seo_checker',
