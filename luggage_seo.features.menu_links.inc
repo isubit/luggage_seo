@@ -30,10 +30,10 @@ function luggage_seo_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Site map');
-
 
   return $menu_links;
 }

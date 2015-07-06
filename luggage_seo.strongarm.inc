@@ -13,6 +13,92 @@ function luggage_seo_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_action_status_code_301';
+  $strongarm->value = '10';
+  $export['linkchecker_action_status_code_301'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_check_links_types';
+  $strongarm->value = '0';
+  $export['linkchecker_check_links_types'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_a';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_a'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_audio';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_audio'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_embed';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_embed'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_iframe';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_iframe'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_img';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_img'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_object';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_object'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_extract_from_video';
+  $strongarm->value = 1;
+  $export['linkchecker_extract_from_video'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_blocks';
+  $strongarm->value = 1;
+  $export['linkchecker_scan_blocks'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_nodetypes';
+  $strongarm->value = array(
+    'announcement' => 'announcement',
+    'event' => 'event',
+    'news' => 'news',
+    'page' => 'page',
+    'people' => 'people',
+    'project' => 'project',
+    'biblio' => 'biblio',
+    'resource' => 'resource',
+  );
+  $export['linkchecker_scan_nodetypes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'seo_checker_page';
   $strongarm->value = 1;
   $export['seo_checker_page'] = $strongarm;
