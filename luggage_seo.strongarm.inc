@@ -83,18 +83,58 @@ function luggage_seo_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'linkchecker_scan_nodetypes';
-  $strongarm->value = array(
-    'announcement' => 'announcement',
-    'event' => 'event',
-    'news' => 'news',
-    'page' => 'page',
-    'people' => 'people',
-    'project' => 'project',
-    'biblio' => 'biblio',
-    'resource' => 'resource',
-  );
-  $export['linkchecker_scan_nodetypes'] = $strongarm;
+  $strongarm->name = 'linkchecker_scan_node_announcement';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_announcement'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_biblio';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_biblio'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_event';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_event'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_news';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_news'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_page';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_people';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_people'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_project';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_project'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'linkchecker_scan_node_resource';
+  $strongarm->value = TRUE;
+  $export['linkchecker_scan_node_resource'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
