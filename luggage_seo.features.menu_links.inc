@@ -15,7 +15,7 @@ function luggage_seo_menu_default_menu_links() {
     'menu_name' => 'menu-footer',
     'link_path' => 'sitemap',
     'router_path' => 'sitemap',
-    'link_title' => 'Site map',
+    'link_title' => 'Site Map',
     'options' => array(
       'attributes' => array(
         'title' => 'Display a site map with RSS feeds.',
