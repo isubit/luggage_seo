@@ -81,6 +81,9 @@ function luggage_seo_metatag_export_default() {
       'description' => array(
         'value' => '[node:summary]',
       ),
+      'keywords' => array(
+        'value' => '[node:field-tags]',
+      ),
     ),
   );
 
