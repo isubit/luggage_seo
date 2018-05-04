@@ -153,6 +153,13 @@ function luggage_seo_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'seo_threshold_title_attributes';
+  $strongarm->value = '0';
+  $export['seo_threshold_title_attributes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_map_page_title';
   $strongarm->value = 'Site Map';
   $export['site_map_page_title'] = $strongarm;
