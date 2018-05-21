@@ -80,6 +80,7 @@ features[variable][] = seo_checker_people
 features[variable][] = seo_checker_project
 features[variable][] = seo_checker_resource
 features[variable][] = seo_checker_video
+features[variable][] = seo_threshold_title_attributes
 features[variable][] = site_map_page_title
 features[variable][] = site_map_show_count
 features[variable][] = site_map_show_description
