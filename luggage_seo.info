@@ -72,6 +72,7 @@ features[variable][] = linkchecker_scan_node_people
 features[variable][] = linkchecker_scan_node_project
 features[variable][] = linkchecker_scan_node_resource
 features[variable][] = read_more_require_body_field
+features[variable][] = seo_checker_announcement
 features[variable][] = seo_checker_event
 features[variable][] = seo_checker_news
 features[variable][] = seo_checker_page
