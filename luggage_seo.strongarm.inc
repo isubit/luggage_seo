@@ -14,6 +14,7 @@ function luggage_seo_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'linkchecker_action_status_code_301';
+  $strongarm->value = '';
   $export['linkchecker_action_status_code_301'] = $strongarm;
 
   $strongarm = new stdClass();
