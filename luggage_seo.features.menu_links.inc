@@ -33,7 +33,7 @@ function luggage_seo_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Site map');
+  t('Site Map');
 
   return $menu_links;
 }
