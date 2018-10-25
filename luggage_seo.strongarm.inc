@@ -146,6 +146,13 @@ function luggage_seo_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'seo_checker_allow_failures';
+  $strongarm->value = 'show-preview-only';
+  $export['seo_checker_allow_failures'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'seo_checker_announcement';
   $strongarm->value = 1;
   $export['seo_checker_announcement'] = $strongarm;
@@ -198,6 +205,37 @@ function luggage_seo_strongarm() {
   $strongarm->name = 'seo_checker_video';
   $strongarm->value = 1;
   $export['seo_checker_video'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'seo_threshold_alt_attributes';
+  $strongarm->value = '100';
+  $export['seo_threshold_alt_attributes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'seo_threshold_keyword_density';
+  $strongarm->value = array(
+    0 => '0',
+    1 => '0',
+  );
+  $export['seo_threshold_keyword_density'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'seo_threshold_keyword_in_headings';
+  $strongarm->value = '0';
+  $export['seo_threshold_keyword_in_headings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'seo_threshold_keyword_in_title';
+  $strongarm->value = '0';
+  $export['seo_threshold_keyword_in_title'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
